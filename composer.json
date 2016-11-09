@@ -2,7 +2,7 @@
     "name": "tflori/secure-token",
     "description": "Library to generate tokens of arbitrary precision",
     "license": "MIT",
-    "readme": "README.md"
+    "readme": "README.md",
     "require": {
         "php": ">=5.3",
         "ext-bcmath": "*"
