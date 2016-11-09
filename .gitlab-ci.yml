@@ -1,0 +1,14 @@
+image: "iras/php7-phalcon-test:php7-phalcon-test-1.0"
+
+before_script:
+  - which composer
+  - composer --version
+  - php -v
+  - composer install
+
+test:
+  artifacts:
+    paths:
+      - tests/coverage/
+  script:
+    - composer test-wcc
