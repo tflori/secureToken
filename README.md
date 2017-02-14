@@ -1,6 +1,6 @@
 # SecureToken - tflori/secure-token
 
-[![build status](https://gitlab.w00tserver.org:617/tflori/secureToken/badges/master/build.svg)](https://gitlab.w00tserver.org:617/tflori/secureToken/commits/master)
+[![build status](https://gitlab.w00tserver.org/tflori/secureToken/badges/master/build.svg)](https://gitlab.w00tserver.org/tflori/secureToken/commits/master)
 [![Latest Stable Version](https://poser.pugx.org/tflori/secure-token/v/stable)](https://packagist.org/packages/tflori/secure-token)
 [![Total Downloads](https://poser.pugx.org/tflori/secure-token/downloads)](https://packagist.org/packages/tflori/secure-token)
 [![License](https://poser.pugx.org/tflori/secure-token/license)](https://packagist.org/packages/tflori/secure-token)
