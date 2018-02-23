@@ -1,4 +1,4 @@
-image: "iras/php7-phalcon-test:php7-phalcon-test-1.0"
+image: "iras/php7-composer:1"
 
 before_script:
   - which composer
