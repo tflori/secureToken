@@ -26,10 +26,7 @@ class Binary
 
         $decimal = '0';
         foreach (str_split($binary) as $byte) {
-            $byte = ord($byte);
-            for ($pos = 7; $pos >= 0; $pos--) {
-                $decimal = bcadd(bcmul($decimal,'2'),$byte >> $pos & 1);
-            }
+            $decimal = bcadd(bcmul($decimal,'256'), ord($byte));
         }
 
         if (10 == $targetBase) {
