@@ -12,7 +12,8 @@ namespace SecureToken;
  */
 class Token
 {
-    public static function generate($bitLength = 256, $base = 62) {
+    public static function generate($bitLength = 256, $base = 62)
+    {
         // get random binary data
         $tokenBin = openssl_random_pseudo_bytes(floor($bitLength / 8));
 

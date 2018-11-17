@@ -21,12 +21,13 @@ class Binary
      * @param int    $targetBase
      * @return string
      */
-    public static function toBase($binary, $targetBase) {
+    public static function toBase($binary, $targetBase)
+    {
         $chars = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ+/';
 
         $decimal = '0';
         foreach (str_split($binary) as $byte) {
-            $decimal = bcadd(bcmul($decimal,'256'), ord($byte));
+            $decimal = bcadd(bcmul($decimal, '256'), ord($byte));
         }
 
         if (10 == $targetBase) {
