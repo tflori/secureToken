@@ -1,9 +1,10 @@
 # SecureToken - tflori/secure-token
 
-[![build status](https://gitlab.w00tserver.org/tflori/secureToken/badges/master/build.svg)](https://gitlab.w00tserver.org/tflori/secureToken/commits/master)
-[![Latest Stable Version](https://poser.pugx.org/tflori/secure-token/v/stable)](https://packagist.org/packages/tflori/secure-token)
-[![Total Downloads](https://poser.pugx.org/tflori/secure-token/downloads)](https://packagist.org/packages/tflori/secure-token)
-[![License](https://poser.pugx.org/tflori/secure-token/license)](https://packagist.org/packages/tflori/secure-token)
+[![Build Status](https://travis-ci.org/tflori/secureToken.svg?branch=master)](https://travis-ci.org/tflori/secureToken)
+[![Coverage Status](https://coveralls.io/repos/github/tflori/secureToken/badge.svg?branch=master)](https://coveralls.io/github/tflori/secureToken?branch=master)
+[![Latest Stable Version](https://poser.pugx.org/tflori/secure-token/v/stable.svg)](https://packagist.org/packages/tflori/secure-token)
+[![Total Downloads](https://poser.pugx.org/tflori/secure-token/downloads.svg)](https://packagist.org/packages/tflori/secure-token)
+[![License](https://poser.pugx.org/tflori/secure-token/license.svg)](https://packagist.org/packages/tflori/secure-token)
 
 A helper library to generate tokens.
 
